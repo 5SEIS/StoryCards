@@ -1,0 +1,25 @@
+.endScreenDiv{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../Media/PlacaFinalGracias.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.divbuttontostart{
+    margin-left: 37vw;
+    margin-top: 5vh;
+    height: 35vh;
+    width: 25vw;
+    cursor: pointer;
+}
+
+@media (max-width: 770px) and (orientation: portrait), (hover: none) and (orientation: portrait) { 
+    .endScreenDiv{
+        background-image: url(../Media/placafinalmovile.png);
+    }
+}
+    

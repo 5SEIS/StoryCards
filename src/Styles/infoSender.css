@@ -1,0 +1,130 @@
+.generalDivInfoSender{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textareainfosender{
+    background-color: rgb(255, 255, 255, 0.3);
+    border-radius: 15px;
+    color: white;
+    resize: none;
+    border-color: transparent;
+    width: 45vw;
+    height: 60vh;
+    font-size: 2.5vh;
+    font-family: Gotham Rounded;
+    padding-left: 1.5vh;
+    padding-top: 1.5vh;
+}
+
+#image-container img{
+    width: 25vh;
+    height: 25vh;
+}
+
+.textareainfosender::placeholder{
+    color: white;
+    font-family: Gotham Rounded;
+}
+
+.textareainfosender:focus{
+    outline: transparent;
+}
+
+.textsenderbuttondiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.backandendtextsender{
+    margin-top: 7%;
+    background-image: url(../Media/fondo_botones.png);
+    background-position: center;
+    height: 5.3vh;
+    width: 19.7vh;
+    background-size: 31vh;
+    border-radius: 30px;
+    border-color: transparent;
+    cursor: pointer;
+    color: white;
+    font-family: Gotham Rounded;
+    font-size: 2vh;
+}
+
+.backandendtextsender:disabled{
+    opacity: 0.4;
+    cursor:inherit;
+}
+
+.generalDivImgSender{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imginputcontainer{
+    background-image: url('../Media/fondo_subir_img_ENG.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+}
+
+#Disclaimer{
+    font-family: Gotham Rounded;
+    font-size: 2.2vh;
+}
+
+#inputfile{
+    display: none;
+}
+
+.handlebuttoninputfile{
+    background-image: url("../Media/browse_file.png");
+    background-position: center;
+    height: 4vh;
+    width: 27vh;
+    border-radius: 30px;
+    border-color: transparent;
+    cursor: pointer;
+    color: white;
+    background-size: 150%;
+}
+
+.handlebuttoninputfile:disabled{
+    display: none;
+}
+
+
+@media (max-width: 770px) and (orientation: portrait), (hover: none) and (orientation: portrait) {
+
+    .textareainfosender{
+        width: 85vw;
+        height: 60vh;
+    }
+
+    .generalDivInfoSender{
+        height: 50vh;
+        width: 100%;
+    }
+
+    .imginputcontainer{
+        width: 85vw;
+        height: 100%;   
+    }
+
+}
+
+

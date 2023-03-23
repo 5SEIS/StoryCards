@@ -1,0 +1,111 @@
+@font-face {
+    font-family: OldBook;
+    src: url(../Media/Fonts/antique_book_cover.otf);
+}
+
+.bottonpagoficialhome{
+    position: absolute;
+    bottom: 1vh; 
+    left: 1vh;
+}
+
+
+.HomeDiv{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../Media/TableBG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.divtextos{
+    width: 100%;
+    font-family: OldBook;
+    color: white;
+}
+
+.TitleDiv2{
+    height: 12vh;
+    padding-left: 1.5vh;
+    padding-top: 0.7vh;
+}
+
+.h1hazclickenlacarta{
+    margin-top: -5vh;
+    text-align: center;
+    font-size: 5vh;
+}
+
+.cardContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60vh;
+    width: 100vw;
+    perspective: 600px;
+}
+
+.divbuttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nextbuttondiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+.btnNext{
+    height: 5vh;
+    width: 130px;
+    border-radius: 30px;
+    border-color: transparent;
+    background-image: url(../Media/next_on.png);
+    background-size: 34vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+@media (max-width: 770px) and (orientation: portrait), (hover: none) and (orientation: portrait) { 
+    
+    .cardContainer {
+        flex-direction: column;
+        height: 90vh;
+        width: 100vw;
+    }
+
+    .bottonpagoficialhome{
+        position: absolute;
+        top: 119vh; 
+        left: 1vh;
+    }
+
+    .btnNext{
+        width: 90px;
+        background-size: 35vh;
+        margin-bottom: 2vh;
+    }
+
+    .HomeDiv{
+        height: 100%;
+    }
+
+    .h1hazclickenlacarta{
+        font-size: 4vh;
+        margin-top: 0vh;
+    }
+
+    .TitleDiv2{
+        height: 10vh;
+        padding-left: 1.5vh;
+        padding-top: 0.7vh;
+    }
+
+}
+

@@ -1,0 +1,25 @@
+.generalDivMusic{
+    height: 3vh;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    position: absolute;
+    top: 0%;
+    right: 1%;
+}
+
+.buttonmusic{
+    height: 4vh;
+    width: 4vh;
+    margin-top: 13px;
+    border-radius: 30px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+@media (max-width: 770px) and (orientation: portrait), (hover: none) and (orientation: portrait) {
+    .generalDivMusic{
+        top: 1%;
+        right: 3%;
+    }
+}

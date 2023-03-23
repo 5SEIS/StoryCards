@@ -1,0 +1,244 @@
+.contactUsDiv{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Media/fondo_tell_story.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.bottonpagoficialinfo{
+    position: absolute;
+    bottom: 2vh; 
+    left: 1vh;
+}
+
+
+
+.infoenviadapopup{
+    display: none;
+    position: absolute;
+    width: 28vw;
+    margin-left: auto; 
+    margin-right: auto; 
+    left: 0; 
+    right: 0; 
+}
+
+.infoenviadapopupImg{
+    width: 28vw;
+    height: 30vh;
+}
+
+.enddivcardcontainer{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.divcardsend{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sendinfodivend{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.divinputs{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.inputInfo{
+    border-color: transparent;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(66, 97, 118);
+    height: 4.5vh;
+    margin-top: 30px;
+    color: white;
+}
+
+.inputInfo::placeholder{
+    color:white;
+    font-family: Gotham Rounded;
+}
+
+.tellyourstory{
+    font-family: OldBook;
+    font-size: 7.5vh;
+    margin-top: 13%;
+}
+
+.howgonnatell{
+    font-family: Gotham Rounded;
+}
+
+.TitleImgend{
+    position:absolute ;
+    height: 15.1vh;
+    top: 1%;
+    left: 1%;
+}
+
+.endcard{
+    height: 36.4vh;
+    width: 22.7vh;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.endcardImg{
+    height: 36.4vh;
+    width: 22.7vh;
+}
+
+.buttonImgDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.imgdatabutton{
+    height: 15.1vh;
+    cursor: pointer;
+}
+
+.btnNext{
+    margin-top: 6vh;
+}
+
+.btnNext:disabled{
+    opacity: 0.4;
+    cursor: inherit;
+}
+
+
+
+.textinfosender{
+    display: none;
+    width: 90%;
+    height: 60%;
+}
+
+@media (max-width: 770px) and (orientation: portrait), (hover: none) and (orientation: portrait) {
+
+    .contactUsDiv{
+        flex-direction: column;
+    }
+
+
+    .infoenviadapopup{
+        display: none;
+        position: absolute;
+        width: 80vw;
+        height: 30vh;
+        top: 30%;
+        left: 10%;
+    }
+    
+    .infoenviadapopupImg{
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .divcardsend{
+        height: 30vh;
+        width: 100vw;
+    }
+
+    .sendinfodivend{
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .divinputs{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+    }
+
+    .tellyourstory{
+        font-family: OldBook;
+        font-size: 4vh;
+        margin-top: 3%;
+    }
+    
+    .howgonnatell{
+        font-family: Gotham Rounded;
+        text-align: center;
+    }
+    
+    .TitleImgend{
+        height: 10vh;
+        padding-left: 1.5vh;
+        padding-top: 0.7vh;
+    }
+    
+    .enddivcardcontainer{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .endcardImg{
+        height: 20vh;
+        width: 22vw;
+    }
+    
+    .buttonImgDiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 70vw;
+    }
+    
+    .imgdatabutton{
+        height: 10vh;
+        cursor: pointer;
+    }
+    
+    .btnNext{
+        margin-top: 4vh;
+        width: 200px;
+        border-radius: 40px;
+    }
+    
+    .btnNext:disabled{
+        opacity: 0.4;
+        cursor: inherit;
+    }
+    
+    
+    .textinfosender{
+        display: none;
+        width: 90%;
+        height: 60%;
+    }
+
+    .inputInfo{
+       font-size: 2vh;
+    }
+    
+}
