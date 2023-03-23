@@ -89,7 +89,49 @@ body.active-modal{
     justify-content: space-around;
 }
 
+.imgleftarrow {
+    background-image: url('../Media/boton_izq_ON.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-color: transparent;
+    width: 5vw;
+    height: 5vw;
+    cursor: pointer;
+}
+
+.imgrightarrow{
+    background-image: url('../Media/boton_der_ON.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-color: transparent;
+    width: 5vw;
+    height: 5vw;
+    cursor: pointer;
+}
+
+.imgrightarrow:disabled{
+    background-image: url('../Media/boton_der_OFF.png');
+}
+
+.imgleftarrow:disabled {
+    background-image: url('../Media/boton_izq_OFF.png');
+}
+
 @media (max-width: 770px) and (orientation: portrait), (hover: none) and (orientation: portrait) { 
+
+    .imgrightarrow{
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .imgleftarrow{
+        width: 10vw;
+        height: 10vw;
+    }
 
     .imgiconoinstrucciones{
         width: 13vh;
@@ -118,8 +160,8 @@ body.active-modal{
 
     .imgsignoexclamacionmodal{
         position: absolute;
-        right: 1vh;
-        bottom: -22vh;
+        right: 1.5vw;
+        bottom: 1.5vw;
         height: 5vh;
         cursor: pointer;
     }

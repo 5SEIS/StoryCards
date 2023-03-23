@@ -13,6 +13,7 @@
     width: 40vw;
     justify-content: space-evenly;
     align-items: center;
+    font-family: Gotham Rounded;
 }
 
 .divinstruccion2{
@@ -22,6 +23,7 @@
     width: 40vw;
     justify-content: space-evenly;
     align-items: center;
+    font-family: Gotham Rounded;
 }
 
 .divinstruccion3{
@@ -31,6 +33,7 @@
     width: 40vw;
     justify-content: space-evenly;
     align-items: center;
+    font-family: Gotham Rounded;
 }
 
 
@@ -62,6 +65,7 @@
     justify-content: center;
     flex-direction: column;
     color: white;
+    position: relative;
 }
 
 .TitleDivintro{
@@ -69,10 +73,7 @@
 }
 
 .DivImaginacion{
-    font-family: OldBook;
     font-size: 5vh;
-    margin-bottom: -1vh;
-    margin-top: -1vh;
 }
 
 .DescriptionDiv{
@@ -84,7 +85,7 @@
 
 .bottonpagoficialanding{
     position: absolute;
-    bottom: 1vh; 
+    bottom: 1.5vw; 
     left: auto;
 }
 

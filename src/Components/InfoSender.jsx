@@ -42,7 +42,8 @@ export default function InfoSender({number, userName, userAccount}) {
     }
 
     function goBack(){
-        document.getElementsByClassName('btnNext')[0].style.display = 'inline'
+        document.getElementsByClassName('btnNextContactUs')[0].style.display = 'inline'
+        document.getElementsByClassName('bottonpagoficialinfo')[0].style.display = 'inline'
         document.getElementsByClassName('textinfosender')[0].style.display = 'none'
         document.getElementsByClassName('divinputs')[0].style.display = 'flex'
         document.getElementsByClassName('howgonnatell')[0].style.display = 'inline'

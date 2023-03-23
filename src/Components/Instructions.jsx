@@ -58,24 +58,24 @@ export default function Instructions(){
                         <img className='imgiconoinstrucciones' src={icono1}></img>
                         <h3>This game is made to let your imagination <br></br>fly and have good time with your friends!</h3>
                         <div className="divarrowsmodal">     
-                            <img src={leftarrow} className='imgleftarrow' onClick={() => {lastClausule()}}></img>
-                            <img src={rigtarrow} className='imgleftarrow' onClick={() => {nextClausule()}}></img>
+                            <button disabled={state === 1}  className='imgleftarrow' onClick={() => {lastClausule()}}></button>
+                            <button className='imgrightarrow' onClick={() => {nextClausule()}}></button>
                         </div>
                     </div>
                     <div id='landing3div2' className="divinstruccionmodal2">
                         <img className='imgiconoinstrucciones' src={icono2}></img>
                         <h3>3 cards will be presented, each one from <br></br>a different category: place, character<br></br> and action</h3>
                         <div className="divarrowsmodal">     
-                            <img src={leftarrow} className='imgleftarrow' onClick={() => {lastClausule()}}></img>
-                            <img src={rigtarrow} className='imgleftarrow' onClick={() => {nextClausule()}}></img>
+                        <button className='imgleftarrow' onClick={() => {lastClausule()}}></button>
+                            <button className='imgrightarrow' onClick={() => {nextClausule()}}></button>
                         </div>
                     </div>
                     <div id='landing4div2' className="divinstruccionmodal3">
                         <img className='imgiconoinstrucciones' src={icono3}></img>
                         <h3>the cards can be interpreted in the way<br></br>that each player considers the best to<br></br>create their story.</h3>
                         <div className="divarrowsmodal">     
-                            <img src={leftarrow} className='imgleftarrow' onClick={() => {lastClausule()}}></img>
-                            <img src={rigtarrow} className='imgleftarrow' onClick={() => {nextClausule()}}></img>
+                        <button   className='imgleftarrow' onClick={() => {lastClausule()}}></button>
+                        <button disabled={state === 3} className='imgrightarrow' onClick={() => {nextClausule()}}></button>
                         </div>
                     </div>
                     <button onClick={() => {toggleModal()}} className="closemodal">X</button>

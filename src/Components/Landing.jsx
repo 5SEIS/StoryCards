@@ -43,20 +43,19 @@ export default function Landing() {
             <div id='landing2div' className="divinstruccion1">
                 <img  className='TitleDivintrodivs' alt='Logo' src={Logo}></img>
                 <img src={icono1} style={{width: '18vh'}}></img>
-                <h3>This game is made to let your imagination <br></br>fly and have good time with your friends!</h3>
+                <h3>This game is made to let your imagination fly and have good time with your friends!</h3>
                 <button className='btnNext' onClick={() => {nextClausule()}}></button>
             </div>
             <div id='landing3div' className="divinstruccion2">
                 <img  className='TitleDivintrodivs' alt='Logo' src={Logo}></img>
                 <img src={icono2} style={{width: '18vh'}}></img>
-                <h3>3 cards will be presented, each one from <br></br>a different category: place, character<br></br> and action</h3>
+                <h3>3 cards will be presented, each one from a different category: place, character and action.</h3>
                 <button className='btnNext' onClick={() => {nextClausule()}}></button>
             </div>
             <div id='landing4div' className="divinstruccion3">
                 <img  className='TitleDivintrodivs' alt='Logo' src={Logo}></img>
                 <img src={icono3} style={{width: '18vh'}}></img>
-                <h3>the cards can be interpreted in the way<br></br>that each player considers the best to<br></br>create their story.</h3>
-                <h1 className='DivImaginacion'>Let your imagination run wild!</h1>
+                <h3>the cards can be interpreted in the way that each player considers the best to create their story.<br></br><br></br>Let your imagination run wild!</h3>
                 <Link to='/home'>
                     <button className='btnBegin' onClick={() => {nextClausule()}}></button>
                 </Link>

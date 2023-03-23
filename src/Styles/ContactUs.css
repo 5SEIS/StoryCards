@@ -10,12 +10,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-
+    position: relative;
 }
 
 .bottonpagoficialinfo{
     position: absolute;
-    bottom: 2vh; 
+    bottom: 1vh; 
     left: 1vh;
 }
 
@@ -24,7 +24,7 @@
 .infoenviadapopup{
     display: none;
     position: absolute;
-    width: 28vw;
+    width: 30vw;
     margin-left: auto; 
     margin-right: auto; 
     left: 0; 
@@ -32,8 +32,7 @@
 }
 
 .infoenviadapopupImg{
-    width: 28vw;
-    height: 30vh;
+    width: 30vw;
 }
 
 .enddivcardcontainer{
@@ -120,7 +119,7 @@
 }
 
 .imgdatabutton{
-    height: 15.1vh;
+    height: 17vh;
     cursor: pointer;
 }
 
@@ -133,7 +132,18 @@
     cursor: inherit;
 }
 
-
+.btnNextContactUs{
+    height: 5vh;
+    width: 10vw;
+    border-radius: 30px;
+    border-color: transparent;
+    background-image: url(../Media/next_on.png);
+    background-size: 34vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 3vw;
+}
 
 .textinfosender{
     display: none;
@@ -145,21 +155,30 @@
 
     .contactUsDiv{
         flex-direction: column;
+        height: 100vh;
+    }
+
+    .bottonpagoficialinfo{
+        bottom: 1.5vw; 
+    }
+
+    .btnNextContactUs{
+        width: 25vw;
     }
 
 
     .infoenviadapopup{
         display: none;
         position: absolute;
-        width: 80vw;
-        height: 30vh;
-        top: 30%;
-        left: 10%;
+        width: 70vw;
+        margin-left: auto; 
+        margin-right: auto; 
+        left: 0; 
+        right: 0;
     }
     
     .infoenviadapopupImg{
-        width: 80vw;
-        height: 30vh;
+        width: 70vw;
     }
 
     .divcardsend{
@@ -187,6 +206,7 @@
     .howgonnatell{
         font-family: Gotham Rounded;
         text-align: center;
+        font-size: 6vw;
     }
     
     .TitleImgend{
@@ -203,7 +223,7 @@
     }
 
     .endcardImg{
-        height: 20vh;
+        height: 39vw;
         width: 22vw;
     }
     
@@ -215,13 +235,13 @@
     }
     
     .imgdatabutton{
-        height: 10vh;
+        height: 13vh;
         cursor: pointer;
     }
     
     .btnNext{
         margin-top: 4vh;
-        width: 200px;
+        width: 18vh;
         border-radius: 40px;
     }
     

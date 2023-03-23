@@ -1,10 +1,10 @@
 import React from 'react'
 import '../Styles/ContactUs.css'
 import Logo from '../Media/logo.png'
-import TextoOn from '../Media/texto_on.png'
-import TextoOff from '../Media/texto_off.png'
-import ImagenOn from '../Media/imagen_on.png'
-import ImagenOff from '../Media/imagen_off.png'
+import TextoOn from '../Media/icono_texto_on.png'
+import TextoOff from '../Media/icono_texto_off.png'
+import ImagenOn from '../Media/icono_imagen_on.png'
+import ImagenOff from '../Media/icono_imagen_off.png'
 import sucessfulyuploaded from '../Media/upload_sucessfully.png'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -49,7 +49,8 @@ export default function ContactUs() {
 
  const swap = () => {
         if(state !== 0){
-            document.getElementsByClassName('btnNext')[0].style.display = 'none'
+            document.getElementsByClassName('btnNextContactUs')[0].style.display = 'none'
+            document.getElementsByClassName('bottonpagoficialinfo')[0].style.display = 'none'
             document.getElementsByClassName('textinfosender')[0].style.display = 'inline'
             document.getElementsByClassName('divinputs')[0].style.display = 'none'
             document.getElementsByClassName('howgonnatell')[0].style.display = 'none'
@@ -93,7 +94,7 @@ export default function ContactUs() {
                     }
                 </div>
                 <div>
-                    <button disabled={state === 0 || data.userAccount === '' || data.userName === ''} className='btnNext' onClick={union} ></button>
+                    <button disabled={state === 0 || data.userAccount === '' || data.userName === ''} className='btnNextContactUs' onClick={union} ></button>
                 </div>
             </div>
             <a target='blank' href='https://5seis.com' className='bottonpagoficialinfo'>

@@ -18,6 +18,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    position: relative;
 }
 
 .divtextos{
@@ -82,14 +83,14 @@
 
     .bottonpagoficialhome{
         position: absolute;
-        top: 119vh; 
-        left: 1vh;
+        bottom:  1.5vw; 
+        left: 1.5vw;
     }
 
     .btnNext{
         width: 90px;
         background-size: 35vh;
-        margin-bottom: 2vh;
+        margin-bottom: 5vh;
     }
 
     .HomeDiv{

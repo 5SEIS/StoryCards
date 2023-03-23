@@ -2,24 +2,36 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url(../Media/PlacaFinalGracias.png);
+    background-image: url(../Media/PlacaFinalGracias.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.divbuttontostart{
-    margin-left: 37vw;
-    margin-top: 5vh;
-    height: 35vh;
+.buttonPlayAgain{
+    position: absolute;
     width: 25vw;
-    cursor: pointer;
+    height: 6vh;
+    left: 37.5vw;
+    top: 75vh;
+    background-image: url('../Media/play_again.png');
+    background-position: center;
+    border-radius: 30px;
+    background-size: 130%;
+    border-color: transparent;
 }
 
 @media (max-width: 770px) and (orientation: portrait), (hover: none) and (orientation: portrait) { 
     .endScreenDiv{
-        background-image: url(../Media/placafinalmovile.png);
+        background-image: url(../Media/placafinalmovile.jpg);
+    }
+
+    .buttonPlayAgain{
+            width: 50vw;
+            height: 5vh;
+            left: 25vw;
+            background-size: 140%;
     }
 }
     

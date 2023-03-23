@@ -9,7 +9,7 @@ export default function EndScreen(){
     return(
         <div className='endScreenDiv'>
             <Link to='/'>
-                <div className="divbuttontostart"></div>
+                <button className="buttonPlayAgain"></button>
             </Link>
         </div>
     )
