@@ -61,6 +61,7 @@ body.active-modal{
     justify-content: space-evenly;
     align-items: center;
     color: white;
+    font-family: GhotamRoundedLight;
 }
 
 .divinstruccionmodal2{
@@ -71,6 +72,7 @@ body.active-modal{
     justify-content: space-evenly;
     align-items: center;
     color: white;
+    font-family: GhotamRoundedLight;
 }
 
 .divinstruccionmodal3{
@@ -81,6 +83,7 @@ body.active-modal{
     justify-content: space-evenly;
     align-items: center;
     color: white;
+    font-family: GhotamRoundedLight;
 }
 
 .divarrowsmodal{
@@ -126,7 +129,6 @@ body.active-modal{
     .imgrightarrow{
         width: 10vw;
         height: 10vw;
-        
     }
 
     .divarrowsmodal{

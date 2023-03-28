@@ -77,7 +77,7 @@
 
 .inputInfo::placeholder{
     color:white;
-    font-family: Gotham Rounded;
+    font-family: GhotamRoundedLight;
 }
 
 .tellyourstory{
@@ -87,7 +87,7 @@
 }
 
 .howgonnatell{
-    font-family: Gotham Rounded;
+    font-family: GhotamRoundedLight;
 }
 
 .TitleImgend{
@@ -204,7 +204,7 @@
     }
     
     .howgonnatell{
-        font-family: Gotham Rounded;
+        font-family: GhotamRoundedLight;
         text-align: center;
         font-size: 6vw;
     }
