@@ -126,6 +126,11 @@ body.active-modal{
     .imgrightarrow{
         width: 10vw;
         height: 10vw;
+        
+    }
+
+    .divarrowsmodal{
+        width: 30vw;
     }
 
     .imgleftarrow{
@@ -134,12 +139,12 @@ body.active-modal{
     }
 
     .imgiconoinstrucciones{
-        width: 13vh;
+        width: 22vw;
     }
 
     .modal-content{
         width: 60vw;
-        height: 50vh;   
+        height: 100vw;   
     }
 
     .closemodal{
@@ -147,15 +152,15 @@ body.active-modal{
     }
 
     .divinstruccionmodal1 h3{
-        font-size: 1.5vh;
+        font-size: 2.7vw;
     }
     
     .divinstruccionmodal2 h3{
-        font-size: 1.5vh;
+        font-size: 2.7vw;
     }
     
     .divinstruccionmodal3 h3{
-        font-size: 1.5vh;
+        font-size: 2.7vw;
     }
 
     .imgsignoexclamacionmodal{
