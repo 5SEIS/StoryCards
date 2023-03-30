@@ -78,7 +78,7 @@ export default function Instructions(){
                         <button disabled={state === 3} className='imgrightarrow' onClick={() => {nextClausule()}}></button>
                         </div>
                     </div>
-                    <button onClick={() => {toggleModal()}} className="closemodal">X</button>
+                    <button onClick={() => {toggleModal()}} className="closemodal"></button>
                 </div>
             </div>)
             }

@@ -43,6 +43,8 @@ body.active-modal{
 }
 
 .closemodal{
+    width: 2vw;
+    height: 2vw;
     position: absolute;
     top: 2vw;
     right: 2vw;
@@ -51,6 +53,10 @@ body.active-modal{
     font-size: 5vh;
     border-color: transparent;
     cursor: pointer;
+    background-image: url(../Media/cross.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .divinstruccionmodal1{
@@ -150,7 +156,8 @@ body.active-modal{
     }
 
     .closemodal{
-        font-size: 4vh;
+        height: 5vw;
+        width: 5vw;
     }
 
     .divinstruccionmodal1 h3{

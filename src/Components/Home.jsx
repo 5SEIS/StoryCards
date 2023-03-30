@@ -5,14 +5,15 @@ import {Medieval} from '../Data/Data'
 import { Link } from 'react-router-dom'
 import Logo from '../Media/logo.png'
 import Card from '../Components/Card'
-import BackPlaces from '../Media/dorsolugares.png'
-import BackActions from '../Media/dorsoaccioness.png'
-import BackCharacter from '../Media/dorsopersonajes.png'
+import BackPlaces from '../Media/dorsolugares.jpg'
+import BackActions from '../Media/dorsoaccioness.jpg'
+import BackCharacter from '../Media/dorsopersonajes.jpg'
 import upperAction from '../Media/action.png'
 import upperplace from '../Media/place.png'
 import uppercharacter from '../Media/character.png'
 import cincoseisLogo from '../Media/logo_5SEIS.png'
 import Instructions from './Instructions'
+import clickheretorevealthem from '../Media/cta_cartas_ENG.png'
 
 export default function Home() {
 
@@ -58,11 +59,11 @@ export default function Home() {
 
     return (
         <div className='HomeDiv'>
-            <div className="divtextos">
                 <Link to='/'>
                     <img alt='LogoTable' className='TitleDiv2' src={Logo}></img>
                 </Link>
-                <h1 className='h1hazclickenlacarta'>Click the cards to reveal them</h1>
+            <div className="divtextos">
+                <img src={clickheretorevealthem} className='h1hazclickenlacarta'></img>
             </div>
             <div className="divbuttons">
                 {/* <button onClick={() => getRandom()} className='btnNext'>Refrescar</button> */}

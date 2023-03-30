@@ -12,6 +12,7 @@
 .cardimgback{
     width: 15vw;
     height: 23vw;
+    border-radius: 2vw;
 }
 
 .flip-card {
@@ -136,7 +137,7 @@
     .cardimgback{
         width: 30vw;
         height: 45vw;
-
+        border-radius: 4vw;
     }
     
     .flip-card {

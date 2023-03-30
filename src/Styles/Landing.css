@@ -15,7 +15,7 @@
     display: none;
     flex-direction: column;
     height: 90vh;
-    width: 40vw;
+    width: 30vw;
     justify-content: space-evenly;
     align-items: center;
     font-family: GhotamRoundedLight;
@@ -25,7 +25,7 @@
     display: none;
     flex-direction: column;
     height: 90vh;
-    width: 40vw;
+    width: 30vw;
     justify-content: space-evenly;
     align-items: center;
     font-family: GhotamRoundedLight;
@@ -35,7 +35,7 @@
     display: none;
     flex-direction: column;
     height: 90vh;
-    width: 40vw;
+    width: 30vw;
     justify-content: space-evenly;
     align-items: center;
     font-family: GhotamRoundedLight ;
@@ -48,7 +48,7 @@
 
 .btnBegin{
     height: 5vh;
-    width: 130px;
+    width: 13vw;
     border-radius: 30px;
     border-color: transparent;
     background-image: url(../Media/begin.png);
@@ -94,19 +94,29 @@
     left: auto;
 }
 
-.btnIniciar{
-    font-family: GhotamRoundedLight;
-    font-size: 2.2vh;
-    height: 6vh;
-    width: 30.3vh;
-    margin-top: 20px;
-    color: white;
-    border-radius: 40px;
+.bottonpagoficialanding img{
+    height: 1.5vw;
+}
+
+
+.btnNextLanding{
+    height: 5vh;
+    width: 13vw;
+    border-radius: 30px;
     border-color: transparent;
-    background-image: url(../Media/fondo_boton_grande.png);
-    background-size: 38vh;
+    background-image: url(../Media/next_on.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
+}
+
+.letyourimaginationrun{
+    font-family: oldBook;
+    font-size: 2.3vw;
+    margin-top: -2vw;
+    margin-bottom: -1vw;
+    font-weight: 100;
 }
 
 @media (max-width: 770px) and (orientation: portrait), (hover: none) and (orientation: portrait) { 
@@ -118,9 +128,18 @@
         background-size: cover
     }
 
+    .btnNextLanding{
+        width: 40vw;
+        background-size: 35vh;
+    }
+
+    .letyourimaginationrun{
+        margin-top: -1vw;
+        font-size: 8vw !important; 
+    }
+
     .btnBegin{
-        height: 5vh;
-        width: 220px;
+        width: 40vw;
     }
 
     .TitleDivintro{
@@ -130,7 +149,6 @@
     .DivImaginacion{
         font-family: OldBook;
         font-size: 4vh;
-        
     }
 
     .DescriptionDiv{
@@ -139,10 +157,8 @@
         font-size: 2.7vh;
     }
 
-    .bottonpagoficialanding{
-        position: absolute;
-        bottom: 1vh; 
-        left: auto;
+    .bottonpagoficialanding img{
+        height: 5vw;
     }
 
     [aria-disabled="true"] {
@@ -162,6 +178,7 @@
     .divinstruccion1 h3{
         font-size: 3vh;
         text-align: left;
+        margin-top: -4vw;
     }
     .divinstruccion2 h3{
         font-size: 3vh;

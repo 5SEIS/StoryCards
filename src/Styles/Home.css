@@ -23,20 +23,22 @@
 
 .divtextos{
     width: 100%;
-    font-family: OldBook;
+    height: 8vw;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .TitleDiv2{
-    height: 12vh;
-    padding-left: 1.5vh;
-    padding-top: 0.7vh;
+    position: absolute;
+    height: 5.5vw;
+    left: 1.5vh;
+    top: 0.7vh;
 }
 
 .h1hazclickenlacarta{
-    margin-top: -5vh;
-    text-align: center;
-    font-size: 5vh;
+    width: 25vw;
 }
 
 .cardContainer{
@@ -63,7 +65,7 @@
 
 .btnNext{
     height: 5vh;
-    width: 130px;
+    width: 13vw;
     border-radius: 30px;
     border-color: transparent;
     background-image: url(../Media/next_on.png);
@@ -81,6 +83,11 @@
         width: 100vw;
     }
 
+    .divtextos{
+        height: 25vw;
+        align-items: flex-end;
+    }
+
     .bottonpagoficialhome{
         position: absolute;
         bottom:  1.5vw; 
@@ -94,18 +101,16 @@
     }
 
     .HomeDiv{
-        height: 100%;
+        height: fit-content;
     }
 
     .h1hazclickenlacarta{
-        font-size: 4vh;
-        margin-top: 0vh;
+        width: 55vw;
+        padding-bottom: 2vw;
     }
 
     .TitleDiv2{
-        height: 10vh;
-        padding-left: 1.5vh;
-        padding-top: 0.7vh;
+        height: 15vw;
     }
 
 }

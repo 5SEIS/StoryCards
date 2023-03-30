@@ -59,6 +59,11 @@
     color: white;
 }
 
+#inputinfofullnameid:placeholder-shown{
+    border-color: red;
+    border-width: 0.1vw;
+}
+
 .divinputs{
     display: flex;
     flex-direction: column;
@@ -78,6 +83,11 @@
 .inputInfo::placeholder{
     color:white;
     font-family: GhotamRoundedLight;
+}
+
+.inputInfo:disabled{
+    
+    border-color: red;
 }
 
 .tellyourstory{
@@ -143,6 +153,11 @@
     background-position: center;
     cursor: pointer;
     margin-top: 3vw;
+}
+
+.btnNextContactUs:disabled{
+    opacity: 0.3;
+    cursor: auto;
 }
 
 .textinfosender{

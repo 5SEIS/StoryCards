@@ -29,7 +29,6 @@ export default function ContactUs() {
         swap();
     }
 
-
     function handleOnChange1(e){
         e.preventDefault()
         setData({
@@ -80,8 +79,8 @@ export default function ContactUs() {
             <div className='sendinfodivend'>
                 <h1 className='tellyourstory'>Time to tell your story!</h1>
                 <div className='divinputs'>
-                    <input name='userName' onChange={e => handleOnChange1(e)} className='inputInfo' type='text' placeholder='Full Name'/>   
-                    <input name='userAccount' onChange={e => handleOnChange2(e)} className='inputInfo' type='text' /* value={data.userAccount} */ placeholder='Instagram user'/>   
+                    <input name='userName' onChange={e => handleOnChange1(e)} id='inputinfofullnameid' className='inputInfo' type='text' placeholder='Full Name'/>   
+                    <input name='userAccount' onChange={e => handleOnChange2(e)} className='inputInfo' type='text' /* value={data.userAccount} */ placeholder='Instagram user (optional)'/>   
                 </div>
                 <h1 className='howgonnatell'>How are you going to tell your story?</h1>
                 <div className='buttonImgDiv'>
@@ -94,7 +93,7 @@ export default function ContactUs() {
                     }
                 </div>
                 <div>
-                    <button disabled={state === 0 || data.userAccount === '' || data.userName === ''} className='btnNextContactUs' onClick={union} ></button>
+                    <button disabled={state === 0 || data.userName === ''} className='btnNextContactUs' onClick={union} ></button>
                 </div>
             </div>
             <a target='blank' href='https://5seis.com' className='bottonpagoficialinfo'>
