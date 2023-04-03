@@ -89,19 +89,17 @@ export default function InfoSender({number, userName, userAccount}) {
 
     }
 
-    function renderizarImagen() {
+    /* function renderizarImagen() {
         const fileInput = document.getElementById("inputfile");
         const file = fileInput.files[0];
         const imageObjectURL = URL.createObjectURL(file);
 
         const image = new Image();
         image.src = imageObjectURL;
-
             image.onload = function() {
-            const imageContainer = document.getElementById("image-container");
-            imageContainer.appendChild(checkImage);
+            document.getElementById("image-container").appendChild(checkImage);
         }
-    }
+    } */
 
     
 
@@ -123,9 +121,9 @@ export default function InfoSender({number, userName, userAccount}) {
         return(
             <div className='generalDivInfoSender'>
                 <div className="imginputcontainer">
-                    <input accept="image/*" id='inputfile' type='file' onChange={(e) => {setFile(e.target.files[0]); renderizarImagen()}}/>
-                    <div disabled={!file} id="image-container">
-                        {/* <img src={checkImage}></img> */}
+                    <input accept="image/*" id='inputfile' type='file' onChange={(e) => {setFile(e.target.files[0])/* ; renderizarImagen() */}}/>
+                    <div className='imgcontainerinfosender'>
+                        { file !== null && <img alt='asd' src={checkImage}></img>}
                     </div>
                     <input disabled={file} type='button' className='handlebuttoninputfile' onClick={e => yaNoseQueNombrePoner(e)}/>
                 </div>

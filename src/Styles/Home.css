@@ -63,24 +63,33 @@
     margin-top: 4vh;
 }
 
-.btnNext{
+.btnNextHome{
     height: 5vh;
-    width: 13vw;
+    width: 10vw;
     border-radius: 30px;
     border-color: transparent;
     background-image: url(../Media/next_on.png);
-    background-size: 34vh;
+    background-size: 150%;
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
+    margin-top: 4vw;
 }
 
 @media (max-width: 770px) and (orientation: portrait), (hover: none) and (orientation: portrait) { 
     
     .cardContainer {
         flex-direction: column;
-        height: 90vh;
+        height: 75vh;
         width: 100vw;
+    }
+
+    .nextbuttondiv{
+        height: 18vw;
+        display: flex;
+        margin-top: 0;
+        align-items: center;
+        justify-content: center;
     }
 
     .divtextos{
@@ -94,14 +103,13 @@
         left: 1.5vw;
     }
 
-    .btnNext{
-        width: 90px;
+    .btnNextHome{
+        width: 30vw;
         background-size: 35vh;
-        margin-bottom: 5vh;
     }
 
     .HomeDiv{
-        height: fit-content;
+        height: 100vh;
     }
 
     .h1hazclickenlacarta{

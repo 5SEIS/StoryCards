@@ -81,7 +81,7 @@ export default function Home() {
             </div>
             <div className="nextbuttondiv">
                 <Link to='/contact'>
-                    <button className='btnNext'></button>
+                    <button className='btnNextHome'></button>
                 </Link>
             </div>
             <a target='blank' href='https://5seis.com' className='bottonpagoficialhome'>

@@ -118,31 +118,28 @@
 @media (max-width: 770px) and (orientation: portrait), (hover: none) and (orientation: portrait) { 
     .flip-card-back {
        font-size: 2vw;
-    }
-    
-    .addcartButton{
+    } 
+
+    .uppertextcss{
+        margin-bottom: -1vh;
+        padding-top: 1vh;
         height: 7vw;
-
-    }
-
-    .addcartbuttondiv{
-        width: 30vw;
     }
 
     .cardimg{
-        width: 30vw;
-        height: 45vw;
+        width: 20vw;
+        height: 33vw;
     }
     
     .cardimgback{
-        width: 30vw;
-        height: 45vw;
+        width: 20vw;
+        height: 33vw;
         border-radius: 4vw;
     }
     
     .flip-card {
-        width: 30vw;
-        height: 45vw;
+        width: 20vw;
+        height: 33vw;
     }
     
 

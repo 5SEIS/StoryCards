@@ -21,9 +21,11 @@
     padding-top: 1.5vh;
 }
 
-#image-container img{
-    width: 25vh;
-    height: 25vh;
+
+.imgcontainerinfosender img{
+    width: 5vw;
+    height: 5vw;
+    margin-top: 3vw;
 }
 
 .textareainfosender::placeholder{
@@ -113,6 +115,11 @@
     .textareainfosender{
         width: 85vw;
         height: 60vh;
+    }
+
+    .imgcontainerinfosender img{
+        width: 10vw;
+        height: 10vw;
     }
 
     .generalDivInfoSender{
