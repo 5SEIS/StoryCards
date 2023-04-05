@@ -85,7 +85,7 @@ export default function Home() {
                 </Link>
             </div>
             <a target='blank' href='https://5seis.com' className='bottonpagoficialhome'>
-                <img src={cincoseisLogo}></img>
+                <img className='bottonpagoficialhomeimg' src={cincoseisLogo}></img>
             </a>
             <Instructions></Instructions>
         </div>

@@ -152,7 +152,7 @@
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 4vw;
 }
 
 .btnNextContactUs:disabled{
@@ -173,8 +173,16 @@
         height: 100vh;
     }
 
+    .btnNextContactUs{
+        margin-top: 1vh;
+    }
+
     .bottonpagoficialinfo{
         bottom: 1.5vw; 
+    }
+
+    .bottonpagoficialinfo img{
+        height: 5vw; 
     }
 
     .btnNextContactUs{
