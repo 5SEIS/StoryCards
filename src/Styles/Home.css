@@ -69,14 +69,15 @@
     border-radius: 30px;
     border-color: transparent;
     background-image: url(../Media/next_on.png);
-    background-size: 150%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
     margin-top: 4vw;
+    background-color: transparent;
 }
 
-@media only screen and (max-width: 320px) and (orientation: portrait), (hover: none) and (orientation: portrait) { 
+@media (max-width: 770px) and (orientation: portrait), (hover: none) and (orientation: portrait)  and (max-aspect-ratio:16/9) { 
     
     .cardContainer {
         flex-direction: column;
@@ -109,7 +110,6 @@
 
     .btnNextHome{
         width: 30vw;
-        background-size: 35vh;
     }
 
     .HomeDiv{

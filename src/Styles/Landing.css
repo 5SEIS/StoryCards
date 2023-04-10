@@ -10,116 +10,119 @@
     src: url(../Media/Fonts/Gotham\ Rounded\ Light.otf);
 }
 
+    .divinstruccion1{
+        display: none;
+        flex-direction: column;
+        height: 90vh;
+        width: 30vw;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: GhotamRoundedLight;
+    }
+    
+    .divinstruccion2{
+        display: none;
+        flex-direction: column;
+        height: 90vh;
+        width: 30vw;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: GhotamRoundedLight;
+    }
+    
+    .divinstruccion3{
+        display: none;
+        flex-direction: column;
+        height: 90vh;
+        width: 30vw;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: GhotamRoundedLight ;
+    }
+    
+    
+    .TitleDivintrodivs{
+        width: 25vh;
+    }
+    
+    .btnBegin{
+        height: 5vh;
+        width: 13vw;
+        border-radius: 30px;
+        border-color: transparent;
+        background-image: url(../Media/begin.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    
+    .LandingDiv{
+        height: 100vh;
+        width: 100vw;
+        background-image:url(../Media/BG.jpg);
+        background-size: 100%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        position: relative;
+    }
+    
+    .TitleDivintro{
+        height: 30vh;
+    }
+    
+    .DivImaginacion{
+        font-size: 5vh;
+    }
+    
+    .DescriptionDiv{
+        font-family: GhotamRoundedLight;
+        width: 60%;
+        font-size: 3.1vh;
+        text-align: left;
+    }
+    
+    .bottonpagoficialanding{
+        position: absolute;
+        bottom: 1.5vw; 
+        left: auto;
+    }
+    
+    .bottonpagoficialanding img{
+        height: 1.5vw;
+    }
+ 
+    .btnNextLanding{
+        height: 5vh;
+        width: 13vw;
+        border-radius: 30px;
+        border-color: transparent;
+        background-image: url(../Media/next_on.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        background-color: transparent;
+        outline-color: transparent;
+    }
+    
+    .letyourimaginationrun{
+        font-family: oldBook;
+        font-size: 2.3vw;
+        margin-top: -2vw;
+        margin-bottom: -1vw;
+        font-weight: 100;
+    }
 
-.divinstruccion1{
-    display: none;
-    flex-direction: column;
-    height: 90vh;
-    width: 30vw;
-    justify-content: space-evenly;
-    align-items: center;
-    font-family: GhotamRoundedLight;
-}
-
-.divinstruccion2{
-    display: none;
-    flex-direction: column;
-    height: 90vh;
-    width: 30vw;
-    justify-content: space-evenly;
-    align-items: center;
-    font-family: GhotamRoundedLight;
-}
-
-.divinstruccion3{
-    display: none;
-    flex-direction: column;
-    height: 90vh;
-    width: 30vw;
-    justify-content: space-evenly;
-    align-items: center;
-    font-family: GhotamRoundedLight ;
-}
 
 
-.TitleDivintrodivs{
-    width: 25vh;
-}
-
-.btnBegin{
-    height: 5vh;
-    width: 13vw;
-    border-radius: 30px;
-    border-color: transparent;
-    background-image: url(../Media/begin.png);
-    background-size: 34vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    cursor: pointer;
-}
-
-.LandingDiv{
-    height: 100vh;
-    width: 100vw;
-    background-image:url(../Media/BG.jpg);
-    background-size: 100%;
-    background-position: center top;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
-    position: relative;
-}
-
-.TitleDivintro{
-    height: 30vh;
-}
-
-.DivImaginacion{
-    font-size: 5vh;
-}
-
-.DescriptionDiv{
-    font-family: GhotamRoundedLight;
-    width: 60%;
-    font-size: 3.1vh;
-    text-align: left;
-}
-
-.bottonpagoficialanding{
-    position: absolute;
-    bottom: 1.5vw; 
-    left: auto;
-}
-
-.bottonpagoficialanding img{
-    height: 1.5vw;
-}
-
-
-.btnNextLanding{
-    height: 5vh;
-    width: 13vw;
-    border-radius: 30px;
-    border-color: transparent;
-    background-image: url(../Media/next_on.png);
-    background-size: 150%;
-    background-repeat: no-repeat;
-    background-position: center;
-    cursor: pointer;
-}
-
-.letyourimaginationrun{
-    font-family: oldBook;
-    font-size: 2.3vw;
-    margin-top: -2vw;
-    margin-bottom: -1vw;
-    font-weight: 100;
-}
-
-@media (max-width: 770px) and (orientation: portrait), (hover: none) and (orientation: portrait) { 
+@media (max-width: 768px) and (orientation: portrait), (hover: none) and (orientation: portrait) { 
     
     .LandingDiv{
         height: 100vh;
@@ -130,7 +133,7 @@
 
     .btnNextLanding{
         width: 40vw;
-        background-size: 35vh;
+        background-size: cover;
     }
 
     .letyourimaginationrun{
@@ -207,15 +210,4 @@
     }
     
     
-}
-
-@media only screen and (min-width : 768px) {
-    .btnBegin{
-        width: 35vw;
-    }
-
-    .btnNextLanding{
-        width: 35vw;
-        background-size: 35vh;
-    }
 }
