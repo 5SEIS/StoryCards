@@ -208,3 +208,14 @@
     
     
 }
+
+@media only screen and (min-width : 768px) {
+    .btnBegin{
+        width: 35vw;
+    }
+
+    .btnNextLanding{
+        width: 35vw;
+        background-size: 35vh;
+    }
+}

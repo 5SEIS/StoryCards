@@ -116,9 +116,6 @@
 }
 
 @media (max-width: 770px) and (orientation: portrait), (hover: none) and (orientation: portrait) { 
-    .flip-card-back {
-       font-size: 2vw;
-    } 
 
     .uppertextcss{
         margin-bottom: -1vh;
@@ -127,22 +124,21 @@
     }
 
     .cardimg{
-        width: 20vw;
-        height: 33vw;
+        width: 22vw;
+        height: 35vw;
     }
     
     .cardimgback{
-        width: 20vw;
-        height: 33vw;
+        width: 22vw;
+        height: 35vw;
         border-radius: 4vw;
     }
     
     .flip-card {
-        width: 20vw;
-        height: 33vw;
+        width: 22vw;
+        height: 35vw;
     }
     
-
     .btnNext{
         width: 50vw;
     }

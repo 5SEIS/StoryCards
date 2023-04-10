@@ -76,7 +76,7 @@
     margin-top: 4vw;
 }
 
-@media (max-width: 770px) and (orientation: portrait), (hover: none) and (orientation: portrait) { 
+@media only screen and (max-width: 320px) and (orientation: portrait), (hover: none) and (orientation: portrait) { 
     
     .cardContainer {
         flex-direction: column;
@@ -125,5 +125,17 @@
         height: 15vw;
     }
 
+}
+
+@media only screen and (min-width : 768px) {
+    .cardContainer {
+        flex-direction: row;
+        height: 60vh;
+        width: 100vw;
+    }
+
+    .h1hazclickenlacarta{
+        margin-top: 5vw;
+    }
 }
 
