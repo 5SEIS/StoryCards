@@ -57,7 +57,7 @@ export default function InfoSender({number, userName, userAccount}) {
             userName: userName
         })
         try{
-            document.getElementById('144223').style.display='inline'
+            document.getElementById('144223').style.display='flex'
             setTimeout(() => {
                 document.getElementById('144223').style.display='none'
                 travelToEnd()
@@ -79,7 +79,7 @@ export default function InfoSender({number, userName, userAccount}) {
             setFile(null);
         }else{
             uploadBytes(imgRef, file).then(() => {
-                document.getElementById('144223').style.display='inline'
+                document.getElementById('144223').style.display='flex'
                 setTimeout(() => {
                     document.getElementById('144223').style.display='none'
                     travelToEnd()
@@ -107,9 +107,9 @@ export default function InfoSender({number, userName, userAccount}) {
         return(
             <div className='generalDivInfoSender'>
                <textarea onChange={e => handleOnChange(e)} name='story' className='textareainfosender' placeholder='&nbsp;Write here...'></textarea>
-               <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+               <div className='disclaimerdiv' style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                     <img style={{height: '3vh', margin: '1vh'}} src={admiracion}></img>
-                    <h4 id='Disclaimer'>The author of the story will be tagged on social media.</h4>
+                    <h4 className='Disclaimer'>The author of the story will be tagged on social media.</h4>
                 </div>
                <div className='textsenderbuttondiv'>
                     <button  className="backandendtextsender" onClick={() => {goBack()}}>Back</button>
@@ -127,9 +127,9 @@ export default function InfoSender({number, userName, userAccount}) {
                     </div>
                     <input disabled={file} type='button' className='handlebuttoninputfile' onClick={e => yaNoseQueNombrePoner(e)}/>
                 </div>
-                <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                <div className='disclaimerdiv' style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                 <img style={{height: '3vh', margin: '1vh'}} src={admiracion}></img>
-                <h4 id='Disclaimer'>The author of the story will be tagged on social media.</h4>
+                <h4 className='Disclaimer'>The author of the story will be tagged on social media.</h4>
                 </div>
                 <div className='textsenderbuttondiv'>
                     <button  className="backandendtextsender" onClick={() => {goBack()}}>Back</button>

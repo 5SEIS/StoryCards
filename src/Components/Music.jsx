@@ -19,7 +19,7 @@ export default function Music(){
         // This is cleanup of the effect
         return () => player.pause();
 
-    }, [playing]);
+    },[playing]);
    // ^ Run the effect every time the `playing` is changed
 
     function togglePlay() {
@@ -32,8 +32,7 @@ export default function Music(){
 
     return(
         <div className="generalDivMusic">
-                {playing? <img src={mutepng} className='buttonmusic' onClick={() => togglePlay()}></img> : 
-                <img  src={volumepng} className='buttonmusic' onClick={() => togglePlay()}></img>  }
+            {playing? <img alt='botonpausar' src={volumepng} className='buttonmusic' onClick={() => togglePlay()}></img> : <img alt='botonreproducir' src={mutepng} className='buttonmusic' onClick={() => togglePlay()}></img>}
         </div>
     )
 

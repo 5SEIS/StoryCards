@@ -14,7 +14,6 @@ function App() {
       <BrowserRouter>
         <Music/>
         <Routes>
-          <Route path='*' element={<Music/>}/>
           <Route path='/' element={<Landing/>}/>
           <Route path='/home' element={<Home/>}/>
           <Route path='/contact' element={<ContactUs/>}/>

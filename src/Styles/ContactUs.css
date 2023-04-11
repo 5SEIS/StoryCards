@@ -22,13 +22,13 @@
 
 
 .infoenviadapopup{
-    display: none;
     position: absolute;
-    width: 30vw;
-    margin-left: auto; 
-    margin-right: auto; 
-    left: 0; 
-    right: 0; 
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(49, 49, 49, 0.5);
 }
 
 .infoenviadapopupImg{
@@ -86,7 +86,6 @@
 }
 
 .inputInfo:disabled{
-    
     border-color: red;
 }
 
@@ -94,10 +93,15 @@
     font-family: OldBook;
     font-size: 7.5vh;
     margin-top: 13%;
+    animation: drop-in 1s ease 200ms backwards;
 }
 
 .howgonnatell{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     font-family: GhotamRoundedLight;
+    animation: drop-in 1s ease 400ms backwards;
+    font-size: 1.5vw;
 }
 
 .TitleImgend{
@@ -119,6 +123,7 @@
 .endcardImg{
     height: 36.4vh;
     width: 22.7vh;
+    animation: drop-in 1s ease 200ms backwards;
 }
 
 .buttonImgDiv{
@@ -187,16 +192,6 @@
         margin-top: 1vh;
     }
 
-
-    .infoenviadapopup{
-        display: none;
-        position: absolute;
-        width: 70vw;
-        margin-left: auto; 
-        margin-right: auto; 
-        left: 0; 
-        right: 0;
-    }
     
     .infoenviadapopupImg{
         width: 70vw;
@@ -227,7 +222,9 @@
     .howgonnatell{
         font-family: GhotamRoundedLight;
         text-align: center;
-        font-size: 6vw;
+        font-size: 4vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
     }
     
     .TitleImgend{

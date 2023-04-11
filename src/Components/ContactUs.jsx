@@ -58,7 +58,7 @@ export default function ContactUs() {
     }
  
     return (
-        <div className='contactUsDiv'>
+        <div id='contactusdivid' className='contactUsDiv'>
             <div className='divcardsend'>
                 <Link to='/'>
                     <img className='TitleImgend' alt='Logo' src={Logo}></img>
@@ -79,10 +79,10 @@ export default function ContactUs() {
             <div className='sendinfodivend'>
                 <h1 className='tellyourstory'>Time to tell your story!</h1>
                 <div className='divinputs'>
-                    <input name='userName' onChange={e => handleOnChange1(e)} id='inputinfofullnameid' className='inputInfo' type='text' placeholder='Full Name'/>   
-                    <input name='userAccount' onChange={e => handleOnChange2(e)} className='inputInfo' type='text' /* value={data.userAccount} */ placeholder='Instagram user (optional)'/>   
+                    <input name='userName' maxLength="50" onChange={e => handleOnChange1(e)} id='inputinfofullnameid' className='inputInfo' type='text' placeholder='Full Name*'/>   
+                    <input name='userAccount' maxLength="50" onChange={e => handleOnChange2(e)} className='inputInfo' type='text' /* value={data.userAccount} */ placeholder='Instagram user (optional)'/>   
                 </div>
-                <h1 className='howgonnatell'>How are you going to tell your story?</h1>
+                <p className='howgonnatell'>How are you going to tell your story?</p>
                 <div className='buttonImgDiv'>
                     <img src={state === 1? ImagenOn: ImagenOff} onClick={() => setState(1)} alt="imagen" className="imgdatabutton" />
                     <img src={state === 2? TextoOn: TextoOff} onClick={() => setState(2)} alt="texto" className="imgdatabutton" />

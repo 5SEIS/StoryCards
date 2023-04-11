@@ -6,6 +6,7 @@
     position: absolute;
     top: 0%;
     right: 1%;
+    z-index: 1;
 }
 
 .buttonmusic{
@@ -17,7 +18,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 770px) and (orientation: portrait), (hover: none) and (orientation: portrait) {
+@media (max-width: 768px) and (orientation: portrait), (hover: none) and (orientation: portrait) { 
     .generalDivMusic{
         top: 1%;
         right: 3%;
