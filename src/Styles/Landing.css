@@ -11,7 +11,7 @@
     .divinstruccion1{
         display: none;
         flex-direction: column;
-        height: 90vh;
+        height: 40vw;
         width: 30vw;
         justify-content: space-evenly;
         align-items: center;
@@ -21,7 +21,7 @@
     .divinstruccion2{
         display: none;
         flex-direction: column;
-        height: 90vh;
+        height: 40vw;
         width: 30vw;
         justify-content: space-evenly;
         align-items: center;
@@ -31,7 +31,7 @@
     .divinstruccion3{
         display: none;
         flex-direction: column;
-        height: 90vh;
+        height: 40vw;
         width: 30vw;
         justify-content: space-evenly;
         align-items: center;
@@ -45,7 +45,7 @@
     }
     
     .btnBegin{
-        height: 5vh;
+        height: 2vw;
         width: 13vw;
         border-radius: 30px;
         border-color: transparent;
@@ -98,7 +98,7 @@
     }
  
     .btnNextLanding{
-        height: 5vh;
+        height: 2vw;
         width: 13vw;
         border-radius: 30px;
         border-color: transparent;
@@ -135,11 +135,6 @@
             transform: translate(0px);
         }
     }
-
-    .innertextdiv{
-        width: 100%;
-        height: 45vw;
-    }
        
 
 @media (max-width: 770px) and (orientation: portrait), (hover: none) and (orientation: portrait)  and(max-aspect-ratio:16/9){
@@ -153,8 +148,8 @@
     }
 
     .btnNextLanding{
+        height: 9vw;
         width: 40vw;
-        background-size: cover;
     }
 
     .letyourimaginationrun{
@@ -163,6 +158,7 @@
     }
 
     .btnBegin{
+        height: 9vw;
         width: 40vw;
     }
 
