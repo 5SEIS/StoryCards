@@ -58,11 +58,6 @@
     color: white;
 }
 
-#inputinfofullnameid:placeholder-shown{
-    border-color: red;
-    border-width: 0.1vw;
-}
-
 .divinputs{
     display: flex;
     flex-direction: column;
