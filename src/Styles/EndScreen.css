@@ -1,7 +1,8 @@
 .endScreenDiv{
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: max-content;
+    min-height: 100vh;
     background-image: url(../Media/PlacaFinalGracias.jpg);
     background-size: cover;
     background-position: center;
@@ -24,6 +25,7 @@
     background-size: 130%;
     border-color: transparent;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .boi{

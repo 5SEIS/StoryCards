@@ -16,7 +16,7 @@
     width: 45vw;
     height: 60vh;
     font-size: 2.5vh;
-    font-family: Gotham Rounded;
+    font-family: GhotamRoundedLight;
     padding-left: 1.5vh;
     padding-top: 1.5vh;
 }
@@ -30,7 +30,7 @@
 
 .textareainfosender::placeholder{
     color: white;
-    font-family: Gotham Rounded;
+    font-family: GhotamRoundedLight;
 }
 
 .textareainfosender:focus{
@@ -54,7 +54,7 @@
     border-color: transparent;
     cursor: pointer;
     color: white;
-    font-family: Gotham Rounded;
+    font-family: GhotamRoundedLight;
     font-size: 2vh;
 }
 
@@ -85,7 +85,7 @@
 }
 
 .Disclaimer{
-    font-family: Gotham Rounded;
+    font-family: GhotamRoundedLight;
     font-size: 2.2vh;
 }
 

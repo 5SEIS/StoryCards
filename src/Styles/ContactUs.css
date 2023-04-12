@@ -1,6 +1,7 @@
 .contactUsDiv{
     width: 100vw;
-    height: 100vh;
+    height: max-content;
+    min-height: 100vh;
     background-image: url(../Media/fondo_tell_story.jpg);
     background-size: cover;
     background-position: center;
@@ -18,8 +19,6 @@
     bottom: 1vh; 
     left: 1vh;
 }
-
-
 
 .infoenviadapopup{
     position: absolute;

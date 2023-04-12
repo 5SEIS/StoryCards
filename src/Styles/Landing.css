@@ -58,10 +58,11 @@
     }
     
     .LandingDiv{
-        height: 100vh;
+        min-height: 100vh;
+        height: max-content;
         width: 100vw;
         background-image:url(../Media/BG.jpg);
-        background-size: 100%;
+        background-size: cover;
         background-position: center top;
         background-repeat: no-repeat;
         display: flex;
